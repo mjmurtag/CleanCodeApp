@@ -4,14 +4,17 @@ import { TYPOGRAPHY } from '../../styles/typography';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 4,
     display: 'flex',
     alignItems: 'center',
+    flexDirection: 'column',
     backgroundColor: TYPOGRAPHY.COLOR.Default,
   },
+  reactImage:{
+    width: '70%',
+  },
   image: {
-    flex: 4,
-    flexDirection: 'column',
+    flex: 3,
     width: '70%',
     marginTop: '10%',
   },
@@ -22,7 +25,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     margin: '5%'
-  }
+  },
 });
 
 export default styles;

@@ -59,7 +59,6 @@ var Splash = /** @class */ (function (_super) {
         return (React.createElement(react_native_1.SafeAreaView, { style: { flex: 1 } },
             React.createElement(react_native_1.View, { style: styles_1.default.container },
                 React.createElement(react_native_1.Image, { style: styles_1.default.image, resizeMode: "contain", source: require('../../assets/images/CleanCode.png') }),
-                React.createElement(react_native_1.Image, { resizeMode: "center", source: require('../../assets/images/rn_ts.png') }),
                 React.createElement(react_native_1.Text, { style: styles_1.default.text }, intro),
                 React.createElement(buttons_1.BUTTON_DEFAULT, { style: styles_1.default.enterButton, title: "Continue To App", onClick: this.navigateToHome }))));
     };

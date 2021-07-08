@@ -36,10 +36,6 @@ class Splash extends React.PureComponent<Props, State> {
             resizeMode="contain"
             source={require('../../assets/images/CleanCode.png')}
           />
-          <Image
-            resizeMode="center"
-            source={require('../../assets/images/rn_ts.png')}
-          />
           <Text
             style={styles.text}
           >
