@@ -10,8 +10,19 @@ const styles = StyleSheet.create({
     backgroundColor: TYPOGRAPHY.COLOR.Default,
   },
   image: {
+    flex: 4,
+    flexDirection: 'column',
     width: '70%',
+    marginTop: '10%',
   },
+  enterButton: {
+    marginBottom: '10%',
+  },
+  text: {
+    textAlign: 'center',
+    fontSize: 20,
+    margin: '5%'
+  }
 });
 
 export default styles;

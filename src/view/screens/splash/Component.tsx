@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Image, SafeAreaView } from 'react-native';
+import { View, Image, SafeAreaView, Text } from 'react-native';
 
 import { tabbedNavigation } from '../../../navigators/navigation';
 import styles from './styles';
@@ -27,19 +27,26 @@ class Splash extends React.PureComponent<Props, State> {
   }
 
   render() {
+    const intro = 'Spending time keeping your code clean is not just cost effective; it’s a matter of professional survival.';
     return (
       <SafeAreaView style={{ flex: 1 }}>
         <View style={styles.container}>
           <Image
             style={styles.image}
             resizeMode="contain"
-            source={require('../../assets/images/rnn2.png')}
+            source={require('../../assets/images/CleanCode.png')}
           />
           <Image
             resizeMode="center"
             source={require('../../assets/images/rn_ts.png')}
           />
+          <Text
+            style={styles.text}
+          >
+            {intro}
+          </Text>
           <BUTTON_DEFAULT
+            style={styles.enterButton}
             title="Continue To App"
             onClick={this.navigateToHome}
           />

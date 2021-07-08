@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Navigation } from 'react-native-navigation';
-import { SafeAreaView, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, SafeAreaView, TouchableOpacity, Image, Dimensions, View, Text } from 'react-native';
 
-import styles from './styles';
 import { CText } from '../../elements/custom';
 import router from '../../../navigators/router';
 import { BUTTON_DEFAULT } from '../../elements/buttons';
+import styles from './styles';
 
 export interface Props {
   name: string;
@@ -25,9 +25,9 @@ class Home extends React.PureComponent<Props, State> {
     };
   }
 
-  componentDidMount() {}
+  componentDidMount() { }
 
-  showBurgerMenu () {
+  showBurgerMenu() {
     Navigation.mergeOptions('drawerComponentId', {
       sideMenu: {
         left: {
@@ -48,8 +48,8 @@ class Home extends React.PureComponent<Props, State> {
   }
 
   render() {
-    const { name } = this.state;
 
+    const { name } = this.state;
     return (
       <SafeAreaView style={styles.container}>
         <TouchableOpacity onPress={this.showBurgerMenu}>
@@ -66,5 +66,17 @@ class Home extends React.PureComponent<Props, State> {
     );
   }
 }
-
+const pdfStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    marginTop: 25,
+  },
+  pdf: {
+    flex: 1,
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+  },
+});
 export default Home;
