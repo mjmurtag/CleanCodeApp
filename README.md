@@ -25,7 +25,7 @@ An app to summarize some key sections of Robert C Martin's book 'Clean Code'.
 
 ##### App Screens
 
-| ![Loading](./src/view/assets/images/sample/LoadingScreen.png "Loading") | ![Opening](./src/view/assets/images/sample/OpeningScreen.png "Opening") |![WhyCleanCode](./src/view/assets/images/sample/WhyCleanCodeScreen.png "Why Clean Code") |
+| ![Loading](./src/view/assets/images/sample/LoadingScreen.PNG "Loading") | ![Opening](./src/view/assets/images/sample/OpeningScreen.PNG "Opening") |![WhyCleanCode](./src/view/assets/images/sample/WhyCleanCodeScreen.PNG "Why Clean Code") |
 | :-------------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
 
 ### Table of Contents
