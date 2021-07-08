@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
-import { TYPOGRAPHY } from '../../styles/typography';
+import { TYPOGRAPHY } from './typography';
 
-const styles = StyleSheet.create({
+const sharedStyles = StyleSheet.create({
   container: {
     flex: 3,
     display: 'flex',
@@ -12,8 +12,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 25,
     marginTop: '2%',
-    fontWeight: 'bold',
-    marginBottom: '2%',
+    fontWeight: 'bold'
   },
   text:{
     textAlign: 'left',
@@ -22,13 +21,11 @@ const styles = StyleSheet.create({
     fontWeight : 'normal',
   },
   connectingText:{
-    marginHorizontal: '5%',
-    textAlign: 'center',
+    marginLeft: '5%',
   },
   closingText:{
     textAlign: 'center',
     fontWeight:'bold',
-    marginHorizontal:'5%',
   },
   image:{
     flex: 3,
@@ -41,4 +38,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default styles;
+export default sharedStyles;
