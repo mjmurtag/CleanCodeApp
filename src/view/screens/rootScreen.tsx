@@ -10,6 +10,7 @@ import * as Settings from './settings';
 import * as Drawer from './drawer';
 import * as Dummy from './dummy';
 import * as CleanCodePage from './clean code/CleanCodePage';
+import * as NamingPage from './meaningful names/NamingPage';
 
 const registerComponentWithRedux = (redux: any) => (
   name: string,
@@ -32,4 +33,5 @@ export function registerScreens(redux: any) {
   registerComponentWithRedux(redux)(SCREENS.Drawer, Drawer);
   registerComponentWithRedux(redux)(SCREENS.Dummy, Dummy);
   registerComponentWithRedux(redux)(SCREENS.CleanCode, CleanCodePage);
+  registerComponentWithRedux(redux)(SCREENS.Naming, NamingPage);
 }

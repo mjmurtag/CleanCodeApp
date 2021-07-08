@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 25,
     marginTop: '2%',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    marginBottom: '2%',
   },
   text:{
     textAlign: 'left',
@@ -21,15 +22,22 @@ const styles = StyleSheet.create({
     fontWeight : 'normal',
   },
   connectingText:{
-    marginLeft: '5%',
+    marginHorizontal: '5%',
+    textAlign: 'center',
   },
   closingText:{
     textAlign: 'center',
     fontWeight:'bold',
+    marginHorizontal:'5%',
   },
   image:{
     flex: 3,
     width: '100%',
+  },
+  code:{
+    fontFamily: 'courier',
+    margin: '5%',
+    textAlign: 'center',
   },
 });
 
