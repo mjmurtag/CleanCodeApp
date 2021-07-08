@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 
 import styles from './styles';
-import { CText } from '../../elements/custom';
 
 export interface Props {
   name: string;
@@ -22,7 +21,7 @@ class Drawer extends React.PureComponent<Props, State> {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <CText>Drawer Menu</CText>
+        <Text>Drawer Menu</Text>
       </SafeAreaView>
     );
   }

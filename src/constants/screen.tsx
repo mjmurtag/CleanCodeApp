@@ -4,9 +4,14 @@
 const SCREENS = {
   Splash: 'Splash',
   Home: 'Home',
-  Settings: 'Settings',
-  Drawer: 'Drawer',
+  CleanCode: 'CleanCode',
+  Naming: 'Naming',
+  Functions: 'Functions',
+  Classes: 'Classes',
+  Formatting: 'Formatting',
   Dummy: 'Dummy',
+  Drawer: 'Drawer',
+  Settings: 'Settings',
 };
 
 export { SCREENS };

@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { TouchableOpacity, ViewStyle } from 'react-native';
+import { TouchableOpacity, ViewStyle, Text } from 'react-native';
 
 import { GLOBAL } from '../styles/global';
-import { CText } from './custom';
 
 type Callback = () => any;
 export interface Props {
@@ -20,7 +19,7 @@ const BUTTON_DEFAULT = ({ title, onClick, style }: Props) => (
     style={[GLOBAL.CTA.Style.primary, GLOBAL.LAYOUT.shadow, style]}
     onPress={() => onClick()}
   >
-    <CText style={GLOBAL.CTA.Style.primaryText}>{title}</CText>
+    <Text style={GLOBAL.CTA.Style.primaryText}>{title}</Text>
   </TouchableOpacity>
 );
 
