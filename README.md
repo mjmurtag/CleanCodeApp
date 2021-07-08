@@ -1,4 +1,4 @@
-# An app to showcase the benefits & criticality of Clean Code - TypeScript, React Native, Redux
+# Showcasing Clean Code by Robert C Martin - TypeScript, React Native, Redux
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
