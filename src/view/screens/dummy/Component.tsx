@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 
 import styles from './styles';
-import { CText } from '../../elements/custom';
 
 export interface Props {
   dummyText: string;
@@ -25,8 +24,8 @@ class Home extends React.PureComponent<Props, State> {
 
     return (
       <SafeAreaView style={styles.container}>
-        <CText>This Screen has been pushed over Home screen</CText>
-        <CText>Prop passed: {dummyText}</CText>
+        <Text>This Screen has been pushed over Home screen</Text>
+        <Text>Prop passed: {dummyText}</Text>
       </SafeAreaView>
     );
   }

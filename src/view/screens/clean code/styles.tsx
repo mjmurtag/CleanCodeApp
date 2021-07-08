@@ -4,28 +4,21 @@ import { TYPOGRAPHY } from '../../styles/typography';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 4,
-    display: 'flex',
-    alignItems: 'center',
+    flex: 3,
     flexDirection: 'column',
+    display: 'flex',
     backgroundColor: TYPOGRAPHY.COLOR.Default,
   },
-  reactImage:{
-    width: '70%',
-  },
-  image: {
-    flex: 3,
-    width: '70%',
-    marginTop: '10%',
-  },
-  enterButton: {
-    marginBottom: '10%',
-  },
-  text: {
+  title:{
     textAlign: 'center',
-    fontSize: 20,
+    fontSize : 20,
     margin: '5%',
   },
+  image:{
+    flex: 3,
+    width: '100%',
+    marginLeft: '3%',
+  }
 });
 
 export default styles;

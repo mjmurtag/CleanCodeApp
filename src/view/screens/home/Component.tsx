@@ -2,7 +2,6 @@ import * as React from 'react';
 import { Navigation } from 'react-native-navigation';
 import { StyleSheet, SafeAreaView, TouchableOpacity, Image, Dimensions, View, Text } from 'react-native';
 
-import { CText } from '../../elements/custom';
 import router from '../../../navigators/router';
 import { BUTTON_DEFAULT } from '../../elements/buttons';
 import styles from './styles';
@@ -59,7 +58,7 @@ class Home extends React.PureComponent<Props, State> {
             source={require('../../assets/images/burger-menu.png')}
           />
         </TouchableOpacity>
-        <CText>{name}</CText>
+        <Text>{name}</Text>
         <BUTTON_DEFAULT onClick={this.showPushScreen} title={'Push Screen'} style={styles.button} />
       </SafeAreaView>
     );

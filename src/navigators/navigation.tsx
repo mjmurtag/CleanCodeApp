@@ -13,6 +13,11 @@ export const showSplash = () => {
     },
   });
 };
+const cleanCodeIcon = '../view/assets/images/tabbar/icons8-dispenser-50.png';
+const nameIcon = '../view/assets/images/tabbar/icons8-name-tag-50.png';
+const functionIcon = '../view/assets/images/tabbar/icons8-function-mac-50.png';
+const classIcon = '../view/assets/images/tabbar/icons8-class-50.png';
+const formattingIcon = '../view/assets/images/tabbar/icons8-clear-formatting-150.png';
 
 export const tabbedNavigation = () =>
   Navigation.setRoot({
@@ -33,7 +38,7 @@ export const tabbedNavigation = () =>
                   children: [
                     {
                       component: {
-                        name: SCREENS.Settings,
+                        name: SCREENS.CleanCode,
                       },
                     },
                   ],
@@ -44,13 +49,13 @@ export const tabbedNavigation = () =>
                       animate: true,
                     },
                     bottomTab: {
-                      text: 'Clean Code',
+                      text: 'Why Clean Code?',
                       fontSize: 14,
                       textColor: TYPOGRAPHY.COLOR.Primary,
                       selectedTextColor: TYPOGRAPHY.COLOR.Warning,
                       selectedIconColor: TYPOGRAPHY.COLOR.Warning,
-                      icon: require('../view/assets/images/tabbar/icons8-dispenser-50.png'),
-                      selectedIcon: require('../view/assets/images/tabbar/icons8-dispenser-50.png'),
+                      icon: require(cleanCodeIcon),
+                      selectedIcon: require(cleanCodeIcon),
                     },
                   },
                 },
@@ -60,7 +65,7 @@ export const tabbedNavigation = () =>
                   children: [
                     {
                       component: {
-                        name: SCREENS.Home,
+                        name: SCREENS.Settings,
                         passProps: {
                           text: 'This is Home',
                         },
@@ -79,8 +84,8 @@ export const tabbedNavigation = () =>
                       textColor: TYPOGRAPHY.COLOR.Primary,
                       selectedTextColor: TYPOGRAPHY.COLOR.Warning,
                       selectedIconColor: TYPOGRAPHY.COLOR.Warning,
-                      icon: require('../view/assets/images/tabbar/icons8-name-tag-50.png'),
-                      selectedIcon: require('../view/assets/images/tabbar/icons8-name-tag-50.png'),
+                      icon: require(nameIcon),
+                      selectedIcon: require(nameIcon),
                     },
                   },
                 },
@@ -106,8 +111,8 @@ export const tabbedNavigation = () =>
                       textColor: TYPOGRAPHY.COLOR.Primary,
                       selectedTextColor: TYPOGRAPHY.COLOR.Warning,
                       selectedIconColor: TYPOGRAPHY.COLOR.Warning,
-                      icon: require('../view/assets/images/tabbar/icons8-function-mac-50.png'),
-                      selectedIcon: require('../view/assets/images/tabbar/icons8-function-mac-50.png'),
+                      icon: require(functionIcon),
+                      selectedIcon: require(functionIcon),
                     },
                   },
                 },
@@ -133,8 +138,8 @@ export const tabbedNavigation = () =>
                       textColor: TYPOGRAPHY.COLOR.Primary,
                       selectedTextColor: TYPOGRAPHY.COLOR.Warning,
                       selectedIconColor: TYPOGRAPHY.COLOR.Warning,
-                      icon: require('../view/assets/images/tabbar/icons8-class-50.png'),
-                      selectedIcon: require('../view/assets/images/tabbar/icons8-class-50.png'),
+                      icon: require(classIcon),
+                      selectedIcon: require(classIcon),
                     },
                   },
                 },
@@ -160,8 +165,8 @@ export const tabbedNavigation = () =>
                       textColor: TYPOGRAPHY.COLOR.Primary,
                       selectedTextColor: TYPOGRAPHY.COLOR.Warning,
                       selectedIconColor: TYPOGRAPHY.COLOR.Warning,
-                      icon: require('../view/assets/images/tabbar/icons8-clear-formatting-150.png'),
-                      selectedIcon: require('../view/assets/images/tabbar/icons8-clear-formatting-150.png'),
+                      icon: require(formattingIcon),
+                      selectedIcon: require(formattingIcon),
                     },
                   },
                 },
