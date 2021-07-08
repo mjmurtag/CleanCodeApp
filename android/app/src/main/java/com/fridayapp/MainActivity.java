@@ -1,4 +1,4 @@
-package com.fridayapp;
+package com.cleancodeapp;
 
 import android.view.View;
 import com.reactnativenavigation.NavigationActivity;

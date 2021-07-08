@@ -1,7 +1,7 @@
 const base = '/api/v1';
 const domain = 'somecompany.com';
 const Defaults = {
-  appName: 'FridayApp',
+  appName: 'Clean Code App',
   domain,
   defaultLocale: {
     lang: 'en'

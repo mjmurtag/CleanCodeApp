@@ -1,4 +1,4 @@
-package com.fridayapp;
+package com.cleancodeapp;
 
 
 import android.content.Context;
@@ -74,7 +74,7 @@ public class MainApplication extends NavigationApplication {
                 We use reflection here to pick up the class that initializes Flipper,
             since Flipper library is not available in release mode
             */
-            Class<?> aClass = Class.forName("com.fridayapp.ReactNativeFlipper");
+            Class<?> aClass = Class.forName("com.cleancodeapp.ReactNativeFlipper");
             aClass
                 .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
                 .invoke(null, context, reactInstanceManager);
