@@ -8,7 +8,7 @@ const SCREENS = {
   Naming: 'Naming',
   Functions: 'Functions',
   Classes: 'Classes',
-  Formatting: 'Formatting',
+  UnitTests: 'UnitTests',
   Dummy: 'Dummy',
   Drawer: 'Drawer',
   Settings: 'Settings',

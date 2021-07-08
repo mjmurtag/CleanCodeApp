@@ -17,7 +17,7 @@ const cleanCodeIcon = '../view/assets/images/tabbar/icons8-dispenser-50.png';
 const nameIcon = '../view/assets/images/tabbar/icons8-name-tag-50.png';
 const functionIcon = '../view/assets/images/tabbar/icons8-function-mac-50.png';
 const classIcon = '../view/assets/images/tabbar/icons8-class-50.png';
-const formattingIcon = '../view/assets/images/tabbar/icons8-clear-formatting-150.png';
+const unitTestIcon = '../view/assets/images/tabbar/icons8-test-50.png';
 
 export const tabbedNavigation = () =>
   Navigation.setRoot({
@@ -95,7 +95,7 @@ export const tabbedNavigation = () =>
                   children: [
                     {
                       component: {
-                        name: SCREENS.Settings,
+                        name: SCREENS.Functions,
                       },
                     },
                   ],
@@ -122,7 +122,7 @@ export const tabbedNavigation = () =>
                   children: [
                     {
                       component: {
-                        name: SCREENS.Settings,
+                        name: SCREENS.Classes,
                       },
                     },
                   ],
@@ -160,13 +160,13 @@ export const tabbedNavigation = () =>
                       animate: true,
                     },
                     bottomTab: {
-                      text: 'Formatting',
+                      text: 'Unit Tests',
                       fontSize: 14,
                       textColor: TYPOGRAPHY.COLOR.Primary,
                       selectedTextColor: TYPOGRAPHY.COLOR.Warning,
                       selectedIconColor: TYPOGRAPHY.COLOR.Warning,
-                      icon: require(formattingIcon),
-                      selectedIcon: require(formattingIcon),
+                      icon: require(unitTestIcon),
+                      selectedIcon: require(unitTestIcon),
                     },
                   },
                 },
