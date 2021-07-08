@@ -76,23 +76,9 @@ var Home = /** @class */ (function (_super) {
         return (React.createElement(react_native_1.SafeAreaView, { style: styles_1.default.container },
             React.createElement(react_native_1.TouchableOpacity, { onPress: this.showBurgerMenu },
                 React.createElement(react_native_1.Image, { style: styles_1.default.image, resizeMode: "contain", source: require('../../assets/images/burger-menu.png') })),
-            React.createElement(custom_1.CText, null, "Home"),
             React.createElement(custom_1.CText, null, name),
             React.createElement(buttons_1.BUTTON_DEFAULT, { onClick: this.showPushScreen, title: 'Push Screen', style: styles_1.default.button })));
     };
     return Home;
 }(React.PureComponent));
-var pdfStyles = react_native_1.StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        marginTop: 25,
-    },
-    pdf: {
-        flex: 1,
-        width: react_native_1.Dimensions.get('window').width,
-        height: react_native_1.Dimensions.get('window').height,
-    },
-});
 exports.default = Home;
