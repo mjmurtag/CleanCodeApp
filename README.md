@@ -1,26 +1,14 @@
 # React Native Template - TypeScript
 
-![Travis](https://api.travis-ci.com/AmitM30/react-native-typescript-boilerplate.svg?branch=master) [![Code Climate](https://codeclimate.com/github/AmitM30/react-native-typescript-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/AmitM30/react-native-typescript-boilerplate) ![License](https://img.shields.io/github/license/AmitM30/react-native-typescript-boilerplate.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
-#### An opinionated [React Native](https://facebook.github.io/react-native/docs/getting-started) Starter Kit with [React Native Navigation](https://github.com/wix/react-native-navigation) + [Redux](https://github.com/reactjs/redux) + [Airbnb TSLint](https://github.com/airbnb/javascript) to build iOS and Android apps using [TypeScript](https://github.com/Microsoft/TypeScript-React-Native-Starter)
 
-The project has been setup based off [RN Getting Started](https://facebook.github.io/react-native/docs/getting-started) and instructions from [Microsoft's Github TypeScript React Native Starter](https://github.com/Microsoft/TypeScript-React-Native-Starter) repo.
+The project has been setup based off [react-native-typescript-boilerplate](https://github.com/AmitM30/react-native-typescript-boilerplate)
 
 ___
-
-### Supports React Native 0.64.1, React Native Navigation v7, Flipper and Hermes
-
-| Updates | RNN | RN | React | Comments |
-|---|---|---|---|---|
-|  May '21 | 7.14.0 | 0.64.1 | 17.0.1 | Update RN RNN, Hermes Support
-|  Oct '20 | 7.1.0 | 0.63.3 | 16.13.1 | Support for Flipper
-|  Apr '20 | 3.7.0 | 0.61.5 | 16.9.0 | Support for RN > 0.60, Android X
-|  Nov '19 | 2.26.2 | 0.59.10 |  | Maintenance |
-|  Mar '19 | 2.13.1 | 0.58.6 | 16.8.4 |
-
 ## Introduction
 
-Jumpstart building robust apps using React Native and TypeScript with most commoly needed tools already setup. Just `yarn install` and get going from respective IDEs.
+An app to summarize some key sections of Robert C Martin's book 'Clean Code'.
 
 - Routing and Navigation
   - Tabbed navigation using [React Native Navigation v7](https://github.com/wix/react-native-navigation)
@@ -28,10 +16,6 @@ Jumpstart building robust apps using React Native and TypeScript with most commo
 - State Management using Flux Architecture
   - [Redux](https://redux.js.org/introduction/getting-started)
   - [Redux-Thunk](https://github.com/reduxjs/redux-thunk) middleware
-- Widgets / Elements
-  Build your own design system with these building blocks.
-  - **elements**: `<BUTTON_DEFAULT>` or `<CText>`. They are custom elements that have default properties like font, size and so on.
-  - **widgets**: Any component providing a complete functionality. E.g. carousels component, banner component, etc.
 - Typography
   - Base Typography setup - Color, Font, LAYOUT, CTA, FONTS, TEXT, TEXT_INPUT
 - Code Lint
@@ -41,12 +25,8 @@ Jumpstart building robust apps using React Native and TypeScript with most commo
 
 ##### App Screens
 
-| ![Splash](./src/view/assets/images/sample/1.png "Splash") | ![Home](./src/view/assets/images/sample/2.png "Home") |![Side Menu](./src/view/assets/images/sample/3.png "Side Menu") |
+| ![Loading](./src/view/assets/images/sample/LoadingScreen.png "Loading") | ![Opening](./src/view/assets/images/sample/OpeningScreen.png "Opening") |![WhyCleanCode](./src/view/assets/images/sample/WhyCleanCodeScreen.png "Why Clean Code") |
 | :-------------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
-
-##### Flipper Support
-
-![Flipper](./src/view/assets/images/sample/4.png "Flipper")
 
 ### Table of Contents
 
@@ -80,7 +60,6 @@ Jumpstart building robust apps using React Native and TypeScript with most commo
 │   ├── constants				Screens, Localization
 │   ├── navigators				Router, Navigation
 │   ├── view					UI compoments
-│   │   ├── elements			  Custom elements
 │   │   ├── assets
 │   │   ├── screens
 │   │   ├── styles				  Typography
@@ -190,8 +169,6 @@ Please check out [Contributing](https://github.com/AmitM30/react-native-typescri
 
 ### Authors
 
-- [**Anurag Chutani**](https://github.com/a7urag) - _Android Setup_
-- [**Brian Varley**](https://github.com/BrianJVarley) - _Windows Setup_
-- [**Nelson Omuto**](https://github.com/nelsonomuto) - _Update Podfile_
+- [**Mike Murtagh**](https://github.com/mjmurtag)
 
 See also the list of [contributors](https://github.com/AmitM30/react-native-typescript-boilerplate/contributors).
