@@ -8,7 +8,7 @@ The project has been setup based off [react-native-typescript-boilerplate](https
 ___
 ## Introduction
 
-An app to summarize some key sections of Robert C Martin's book 'Clean Code'.
+An app to summarize some key sections of Robert C Martin's book 'Clean Code'. [Clean Code PDF](https://enos.itcollege.ee/~jpoial/oop/naited/Clean%20Code.pdf) 
 
 - Routing and Navigation
   - Tabbed navigation using [React Native Navigation v7](https://github.com/wix/react-native-navigation)
