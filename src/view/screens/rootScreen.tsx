@@ -13,6 +13,7 @@ import * as CleanCodePage from './why clean code/CleanCodePage';
 import * as NamingPage from './meaningful names/NamingPage';
 import * as FunctionsPage from './a guide on functions/FunctionsPage';
 import * as ClassesPage from './a guide on classes/ClassesPage';
+import * as UnitTestsPage from './unit tests prevent mistakes/UnitTestsPage';
 
 const registerComponentWithRedux = (redux: any) => (
   name: string,
@@ -38,4 +39,5 @@ export function registerScreens(redux: any) {
   registerComponentWithRedux(redux)(SCREENS.Naming, NamingPage);
   registerComponentWithRedux(redux)(SCREENS.Functions, FunctionsPage);
   registerComponentWithRedux(redux)(SCREENS.Classes, ClassesPage);
+  registerComponentWithRedux(redux)(SCREENS.UnitTests, UnitTestsPage);
 }
