@@ -40,7 +40,7 @@ class CleanCode extends React.PureComponent<Props, State> {
             resizeMode="contain"
             source={require('../../assets/images/mess.png')}
           />
-        <Text style={sharedStyles.closingText}>Without Clean Code, your teams' productivity 
+        <Text style={sharedStyles.closingText}>Without Clean Code, your teams' productivity
           will suffer eventually. </Text>
         <Text style={sharedStyles.closingText} >Discover. Teach. Adcovate. </Text>
       </SafeAreaView>
