@@ -1,5 +1,5 @@
 # Showcasing Clean Code by Robert C Martin - TypeScript, React Native, Redux
-
+[![CI](https://github.com/mjmurtag/CleanCodeApp/actions/workflows/main-PR.yml/badge.svg?branch=main)](https://github.com/mjmurtag/CleanCodeApp/actions/workflows/main-PR.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 
