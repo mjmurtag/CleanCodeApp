@@ -23,7 +23,7 @@ class Classes extends React.PureComponent<Props, State> {
         <Text style={sharedStyles.title}>Classes - Small!</Text>
         <Text style={sharedStyles.text}>The ﬁrst rule of classes is that they should be small.
         The second rule of classes is they should have a SINGLE responsibility.</Text>
-        <Text style={sharedStyles.connectingText}>This involves ensuring code is coherantly 
+        <Text style={sharedStyles.connectingText}>This involves ensuring code is coherantly
         organized so others can understand what the intent of the code was. </Text>
         <Text></Text>
         <Text style={sharedStyles.title}>Maintaining cohesion results in many small classes</Text>
