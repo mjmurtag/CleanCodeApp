@@ -18,4 +18,4 @@ By contributing, you agree that your contributions will be licensed under the [M
 
 We use airbnb eslint for maintaing code readablitiy. The project has been written in VSCode with [Prettier](https://prettier.io/) code formatter.
 
-Recommend contributors to run lint on code before creating PRs. Thank :tada:
+There are automated pipelines to ensure contributors to run lint and fix tests  before creating PRs. Thank :tada:
