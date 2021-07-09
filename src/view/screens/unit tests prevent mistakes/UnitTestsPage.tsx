@@ -20,19 +20,23 @@ class UnitTestsPage extends React.PureComponent<Props, State> {
   render() {
     return (
       <SafeAreaView style={sharedStyles.container}>
-        <Text style={sharedStyles.title}>Small!</Text>
-        <Text style={sharedStyles.text}>The ﬁrst rule of functions is that they should be small.
-        The second rule of functions is they should be smaller than that.
-        This is not an assertion that I can justify. I can’t provide
-        any references to research that shows that very small functions are better.</Text>
-        <Text style={sharedStyles.connectingText}>What experience has taught me, through long trial
-        and error, is that functions should be very small.</Text>
+        <Text style={sharedStyles.title}>The Three Laws of TDD</Text>
         <Text></Text>
-        <Text style={sharedStyles.title}>Do One Thing</Text>
-        <Text style={sharedStyles.connectingText}>One Level of Abstraction per Function </Text>
-        <Text style={sharedStyles.closingText}>Reading Code from Top to Bottom: The Stepdown Rule:
-        As code executes, it should ideally step down by one function at a time </Text>
-        <Text style={sharedStyles.closingText} >Discover. Teach. Adcovate. </Text>
+        <Text style={sharedStyles.title}>First Law</Text>
+        <Text style={sharedStyles.text}>You may not write production code unitl you
+        have written a failing unit test.</Text>
+        <Text style={sharedStyles.title}>Second Law</Text>
+        <Text style={sharedStyles.text}>You may not write more of a unit test than is
+        sufficient to fail, and not compiling is failing.</Text>
+        <Text style={sharedStyles.title}>Third Law</Text>
+        <Text style={sharedStyles.text}>You may not write more production code than
+        is sufficient to pass the currently failing test</Text>
+        <Text></Text>
+        <Text style={sharedStyles.title}>Keep Tests Clean</Text>
+        <Text></Text>
+        <Text style={sharedStyles.closingText}>What makes a clean test?
+        Three things. Readability, readability, and readability. Read-
+        ability is perhaps even more important in unit tests than it is in production code.</Text>
       </SafeAreaView>
     );
   }

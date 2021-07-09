@@ -20,7 +20,7 @@ class Functions extends React.PureComponent<Props, State> {
   render() {
     return (
       <SafeAreaView style={sharedStyles.container}>
-        <Text style={sharedStyles.title}>Small!</Text>
+        <Text style={sharedStyles.title}>Functions - Small!</Text>
         <Text style={sharedStyles.text}>The ﬁrst rule of functions is that they should be small.
         The second rule of functions is they should be smaller than that.
         This is not an assertion that I can justify. I can’t provide
