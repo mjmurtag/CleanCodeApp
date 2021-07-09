@@ -39,23 +39,26 @@ An app to summarize some key sections of Robert C Martin's book 'Clean Code'. [C
 
 # Clean Code Concepts Covered:
 ## Why Clean Code? Be aware of the total cost of owning a mess.
-  'When hand-washing was ﬁrst recommended to physicians by Ignaz Semmelweis in 1847, it was rejected on the basis that doctors were too busy and wouldn’t have time to wash their hands between patient visits.',
-  'You have time to write clean code',
+  When hand-washing was ﬁrst recommended to physicians by Ignaz Semmelweis in 1847, it was rejected on the basis that doctors were too busy and wouldn’t have time to wash their hands between patient visits.
+  
+  You have time to write clean code
 
-  'Bjarne Stroustrup, inventor of C++ says:',
-  '"I like my code to be elegant and efﬁcient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well."',
+  ### Bjarne Stroustrup, inventor of C++ says:
 
-  'Without Clean Code, your teams\' productivity will suffer eventually.',
+  "I like my code to be elegant and efﬁcient. The logic should be straightforward to make it hard for bugs to hide, the dependencies minimal to ease maintenance, error handling complete according to an articulated strategy, and performance close to optimal so as not to tempt people to make the code messy with unprincipled optimizations. Clean code does one thing well."
 
-  'Discover. Teach. Adcovate.'
+  Without Clean Code, your teams\' productivity will suffer eventually.
+
+  ### Discover. Teach. Adcovate.
 
   ## Naming 
-  'Names should reveal intent, seriously.',
+  Names should reveal intent, seriously.
 
-  'Names are everywhere in software. We name and name and name. Because we do so much of it, we’d better do it well',
-  'Choosing good names takes time but saves more than it takes. So take care with your names and change them when you ﬁnd better ones. Everyone who reads your code (including you) will be happier if you do.',
+  Names are everywhere in software. We name and name and name. Because we do so much of it, we’d better do it well
+  
+  Choosing good names takes time but saves more than it takes. So take care with your names and change them when you ﬁnd better ones. Everyone who reads your code (including you) will be happier if you do.
 
-  ' The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.',
+  The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.
 
   `int d; // elapsed time in days`
 
@@ -77,7 +80,7 @@ An app to summarize some key sections of Robert C Martin's book 'Clean Code'. [C
    
    This is not an assertion that I can justify. I can’t provide any references to research that shows that very small functions are better.
 
-  'What experience has taught me, through long trial and error, is that functions should be very small.',
+  What experience has taught me, through long trial and error, is that functions should be very small.
 
   Do One Thing
 
@@ -93,21 +96,21 @@ An app to summarize some key sections of Robert C Martin's book 'Clean Code'. [C
 
   Smaller functions and smaller classes go together. Code organization should allow future changes easily.
 
-  'Decoupling of logic promotes flexibility for the future.'
+  Decoupling of logic promotes flexibility for the future.
 ## Unit Tests - The Three Laws of TDD
   ### First Law
 
-  'You may not write production code unitl you have written a failing unit test.',
+  You may not write production code unitl you have written a failing unit test.
   ### Second Law
-  'You may not write more of a unit test than is sufficient to fail, and not compiling is failing.',
+  You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
 
   ### Third Law
-  'You may not write more production code than is sufficient to pass the currently failing test',
+  You may not write more production code than is sufficient to pass the currently failing test
   ### Keep Tests Clean
-  'What makes a clean test? Three things. Readability, readability, and readability. Read- ability is perhaps even more important in unit tests than it is in production code.',
+  What makes a clean test? Three things. Readability, readability, and readability. Read- ability is perhaps even more important in unit tests than it is in production code.
 
   “Complexity kills. It sucks the life out of developers,it makes products difficult to plan, build, and test.” —Ray Ozzie, CTO, Microsoft Corporation
-];
+
 
 ### Table of Contents
 
