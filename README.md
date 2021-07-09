@@ -10,8 +10,14 @@ ___
 
 An app to summarize some key sections of Robert C Martin's book 'Clean Code'. [Clean Code PDF](https://enos.itcollege.ee/~jpoial/oop/naited/Clean%20Code.pdf) 
 
+##### App Screens
 
+| ![Loading](./src/view/assets/images/sample/LoadingScreen.PNG "Loading") | ![Opening](./src/view/assets/images/sample/OpeningScreen.PNG "Opening") |![WhyCleanCode](./src/view/assets/images/sample/WhyCleanCodeScreen.PNG "Why Clean Code") |
+| :-------------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
 
+| ![Naming](./src/view/assets/images/sample/NamingScreen.PNG "Naming") | ![Functions](./src/view/assets/images/sample/FunctionScreen.PNG "Function") |![Classes](./src/view/assets/images/sample/ClassScreen.PNG "Why Clean Code") |
+| :-------------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
+| ![Naming](./src/view/assets/images/sample/UnitTestScreen.PNG "Naming") | ![]( ) |![]() |
 
 ## Technical Details:
 - Routing and Navigation
@@ -26,16 +32,6 @@ An app to summarize some key sections of Robert C Martin's book 'Clean Code'. [C
   - [Airbnb's JS](https://github.com/airbnb/javascript) Linting
 
 > _Disclaimer_: This is an **opinionated** approach to building apps with RN. The project structure is inspired by multiple production apps built by the contributors.
-
-##### App Screens
-
-| ![Loading](./src/view/assets/images/sample/LoadingScreen.PNG "Loading") | ![Opening](./src/view/assets/images/sample/OpeningScreen.PNG "Opening") |![WhyCleanCode](./src/view/assets/images/sample/WhyCleanCodeScreen.PNG "Why Clean Code") |
-| :-------------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
-
-| ![Naming](./src/view/assets/images/sample/NamingScreen.PNG "Naming") | ![Functions](./src/view/assets/images/sample/FunctionScreen.PNG "Function") |![Classes](./src/view/assets/images/sample/ClassScreen.PNG "Why Clean Code") |
-| :-------------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
-| ![Naming](./src/view/assets/images/sample/UnitTestScreen.PNG "Naming") | ![]( ) |![]() |
-
 
 # Clean Code Concepts Covered:
 ## Why Clean Code? Be aware of the total cost of owning a mess.
