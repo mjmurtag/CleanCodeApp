@@ -26,6 +26,7 @@ An app to summarize some key sections of Robert C Martin's book 'Clean Code'. [C
 - State Management using Flux Architecture
   - [Redux](https://redux.js.org/introduction/getting-started)
   - [Redux-Thunk](https://github.com/reduxjs/redux-thunk) middleware
+  - [Coming Soon] [Redux-Saga](https://redux-saga.js.org/)
 - Typography
   - Base Typography setup - Color, Font, LAYOUT, CTA, FONTS, TEXT, TEXT_INPUT
 - Code Lint
