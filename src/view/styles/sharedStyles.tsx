@@ -3,7 +3,7 @@ import { TYPOGRAPHY } from './typography';
 
 const sharedStyles = StyleSheet.create({
   container: {
-    flex: 3,
+    flex: 5,
     display: 'flex',
     flexDirection: 'column',
     backgroundColor: TYPOGRAPHY.COLOR.Default,
