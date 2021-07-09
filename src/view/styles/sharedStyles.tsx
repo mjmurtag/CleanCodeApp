@@ -12,7 +12,7 @@ const sharedStyles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 25,
     marginTop: '2%',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   text:{
     textAlign: 'left',
